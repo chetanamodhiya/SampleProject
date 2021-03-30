@@ -1,9 +1,9 @@
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 public class SampleClass {
 @Test
-public void sampleMethod()
+public void testValidLogin()
 {
-	String url = System.getProperty("url");
-	String browser = System.getProperty("browser");
+	Reporter.log("Running testValidLogin Method", true);
 }
 }
